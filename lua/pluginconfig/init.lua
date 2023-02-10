@@ -1,0 +1,5 @@
+require("pluginconfig.lsp")
+require("pluginconfig.line")
+require("pluginconfig.pair")
+require("pluginconfig.syntax")
+require("pluginconfig.term")
