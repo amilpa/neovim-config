@@ -10,3 +10,5 @@ end
 function cfrun()
 	vim.keymap.set('n','<A-g>','<cmd>TermExec cmd="gcc % && .\\a.exe" direction=float<CR>',{remap=true})
 end
+
+htrun()
