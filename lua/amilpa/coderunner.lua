@@ -4,7 +4,7 @@ function pyrun()
 end
 
 function htrun()
-	vim.keymap.set('n','<A-g>','<cmd>TermExec cmd="python -m http.server 5000" direction=float<CR>',{remap=true})
+	vim.keymap.set('n','<A-g>','<cmd>TermExec cmd="live-server" direction=float<CR>',{remap=true})
 end
 
 function cfrun()
