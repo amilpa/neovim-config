@@ -1,3 +1,3 @@
 # This is my minimalist neovim config
 
-Feel free to refer to spice up your neovim
+It uses telescope for file navigation and lsp zero,treesitter for completion,syntax features.
