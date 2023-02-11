@@ -155,6 +155,11 @@ _G.packer_plugins = {
     path = "C:\\Users\\amilp\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\nvim-lspconfig",
     url = "https://github.com/neovim/nvim-lspconfig"
   },
+  ["nvim-surround"] = {
+    loaded = true,
+    path = "C:\\Users\\amilp\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\nvim-surround",
+    url = "https://github.com/kylechui/nvim-surround"
+  },
   ["nvim-treesitter"] = {
     loaded = true,
     path = "C:\\Users\\amilp\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\nvim-treesitter",

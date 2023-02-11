@@ -50,5 +50,6 @@ return require('packer').startup(function(use)
   use('nvim-treesitter/nvim-treesitter' , {run = ':TSUpdate'})
   use "Shatur/neovim-session-manager"
 
+  use 'kylechui/nvim-surround'
 
 end)
