@@ -52,4 +52,6 @@ return require('packer').startup(function(use)
 
   use 'kylechui/nvim-surround'
 
+  use 'terrortylor/nvim-comment'
+
 end)

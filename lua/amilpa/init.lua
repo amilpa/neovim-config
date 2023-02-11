@@ -19,3 +19,4 @@ vim.api.nvim_set_hl(0, "NormalFloat" , {bg = "None" })
 vim.cmd('hi LineNr guibg=none guifg=#ffffff')
 
 require("nvim-surround").setup()
+require('nvim_comment').setup()
