@@ -31,3 +31,6 @@ vim.keymap.set('n', '<leader>pd', '<cmd>cd %:h<cr>')
 vim.keymap.set('n', '<leader>sl', '<cmd>SessionManager load_session<cr>')
 vim.keymap.set('n', '<leader>ss', '<cmd>SessionManager save_current_session<cr>')
 vim.keymap.set('n', '<leader>sd', '<cmd>SessionManager delete_session<cr>')
+
+
+

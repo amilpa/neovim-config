@@ -1,14 +1,5 @@
+local api = vim.api
 
-function pyrun()
-	vim.keymap.set('n','<A-g>','<cmd>TermExec cmd="python %" direction=float<CR>',{remap=true})
-end
-
-function htrun()
-	vim.keymap.set('n','<A-g>','<cmd>TermExec cmd="live-server" direction=float<CR>',{remap=true})
-end
-
-function cfrun()
-	vim.keymap.set('n','<A-g>','<cmd>TermExec cmd="gcc % && .\\a.exe" direction=float<CR>',{remap=true})
-end
-
-htrun()
+api.nvim_create_autocmd("FileType", { pattern = "python", command = [[nnoremap <buffer><silent> <A-g> :TermExec cmd="python %" direction=float<CR>]] })
+api.nvim_create_autocmd("FileType", { pattern = {"html","css"}, command = [[nnoremap <buffer><silent> <A-g> :TermExec cmd="live-server" direction=float<CR>]] })
+api.nvim_create_autocmd("FileType", { pattern = "c", command = [[nnoremap <buffer><silent> <A-g> :TermExec cmd="gcc % && .\\a.exe" direction=float<CR>]] })
