@@ -1,0 +1,14 @@
+
+{
+  "event listener function": {
+    "prefix": "htmleventlisten",
+    "body": "${object}.addEventListener('click',()=>{$0})",
+    "description": "javascript event listener"
+  },
+  "getelement by classname": {
+    "prefix": "elemclass",
+    "body": "document.getElementByClassName('$1')[${0}]",
+    "description": "javascript element get"
+  }
+
+}
