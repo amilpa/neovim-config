@@ -1,14 +1,19 @@
 
 {
   "event listener function": {
-    "prefix": "htmleventlisten",
+    "prefix": "addEventListener",
     "body": "${object}.addEventListener('click',()=>{$0})",
     "description": "javascript event listener"
   },
   "getelement by classname": {
-    "prefix": "elemclass",
+    "prefix": "geteleclas",
     "body": "document.getElementByClassName('$1')[${0}]",
     "description": "javascript element get"
+  },
+  "toggleclasslist": {
+    "prefix": "classlist",
+    "body": "${object}.classList.toggle('$0')",
+    "description": "javascript classlist toggle"
   }
 
 }

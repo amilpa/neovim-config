@@ -1,0 +1,18 @@
+
+{
+  "name": "my friendly snippets",
+  "version": "1.0.0",
+  "description": "custom snippets made by amilpa",
+  "contributes": {
+    "snippets": [
+      {
+        "language": "python",
+        "path": "./python/python.json"
+      },
+	  {
+        "language": "javascript",
+        "path": "./javascript/javascript.json"
+	  }
+    ]
+  }
+}
