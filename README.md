@@ -14,4 +14,4 @@ npm install live-server for live-server capabalities of vs-code(ignore warnings)
 
 
 
-troubleshoot - install cli-treesitter<br>
+troubleshoot - npm install -g tree-sitter-cli(for problems regarding treesitter)
