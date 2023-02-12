@@ -24,7 +24,7 @@ require("toggleterm").setup{
 		-- not natively supported but implemented in this plugin.
 		border =  'double' ,
 		-- like `size`, width and height can be a number or function which is passed the current terminal
-		width = 100,
-		height = 20,
+		width = 150,
+		height = 30,
 	},
 }
