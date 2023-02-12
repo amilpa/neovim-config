@@ -7,6 +7,8 @@ local powershell_options = {
   shellxquote = "",
 }
 
+vim.api.nvim_set_keymap('t', '<A-f>', '<C-\\><C-n>:CFloatTerm<CR>', {noremap = true, silent = true})
+
 for option, value in pairs(powershell_options) do
   vim.opt[option] = value
 end
