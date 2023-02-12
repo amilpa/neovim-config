@@ -1,11 +1,11 @@
 {
   "print statement": {
-    "prefix": "prstr",
+    "prefix": "outs",
     "body": "print('$0')",
     "description": "python print string"
   },
   "print variables": {
-    "prefix": "prvar",
+    "prefix": "outv",
     "body": "print($0)",
     "description": "python print variables"
   }
