@@ -1,5 +1,5 @@
 local api = vim.api
 
-api.nvim_create_autocmd("FileType", { pattern = "python", command = [[nnoremap <buffer><silent> <A-g> :TermExec cmd="python %" dir=%<CR>]] })
+api.nvim_create_autocmd("FileType", { pattern = "python", command = [[nnoremap <buffer><silent> <A-g> :TermExec cmd="python3 %" dir=%<CR>]] })
 api.nvim_create_autocmd("FileType", { pattern = {"html","css"}, command = [[nnoremap <buffer><silent> <A-g> :TermExec cmd="live-server" dir=%<CR>]] })
-api.nvim_create_autocmd("FileType", { pattern = "c", command = [[nnoremap <buffer><silent> <A-g> :TermExec cmd="gcc % && .\\a.exe" dir=%<CR>]] })
+api.nvim_create_autocmd("FileType", { pattern = "c", command = [[nnoremap <buffer><silent> <A-g> :TermExec cmd="gcc % && ./a.out" dir=%<CR>]] })
