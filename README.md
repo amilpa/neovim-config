@@ -4,6 +4,11 @@ It uses telescope for file navigation and lsp zero,treesitter for completion,syn
 
 Configured in wsl(ubuntu)
 
+sudo apt update
+sudo apt-get upgrade
+
+Install neovim from github(debian package)
+
 sudo apt install clang<br>
 sudo apt install python(most cases already installed)<br>
 sudo apt install zip<br>
