@@ -7,7 +7,7 @@
   },
   "getelement by classname": {
     "prefix": "geteleclas",
-    "body": "document.getElementByClassName('$1')[${0}]",
+    "body": "document.getElementsByClassName('$1')[${0}]",
     "description": "javascript element get"
   },
   "toggleclasslist": {
