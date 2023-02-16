@@ -2,16 +2,16 @@
 
 It uses telescope for file navigation and lsp zero,treesitter for completion,syntax features.
 
-Configured in windows
+Configured in wsl(ubuntu)
 
-use scoop to install neovim <br>
-Requires LLVM/clang(lsp support) <br>
-Requires 64 bit mingw compiler(use scoop) <br>
-Requires ripgrep(use scoop)<br>
-Requires python<br>
-nodejs latest version<br>
-npm install -g live-server for live-server capabalities of vs-code(ignore warnings)<br>
-
+sudo apt install clang
+sudo apt install python(most cases already installed)
+sudo apt install zip
+set up nvm(node version manager) and nodeejs in wsl
+sudo apt install gcc
+sudo apt install g++
+sudo apt install ripgrep
+npm install -g live-server
 
 
 troubleshoot - npm install -g tree-sitter-cli(for problems regarding treesitter)
