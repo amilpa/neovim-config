@@ -3,6 +3,19 @@
 local lsp = require('lsp-zero')
 lsp.preset('recommended')
 
+lsp.ensure_installed({
+	'tsserver',
+	'clangd',
+	'pyright',
+	'marksman',
+	'jdtls',
+	'html',
+	'cssls',
+	'eslint',
+	'jsonls',
+	'lua_ls'
+})
+
 local cmp = require('cmp')
 local luasnip = require('luasnip')
 
