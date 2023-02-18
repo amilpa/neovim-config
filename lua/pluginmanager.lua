@@ -30,6 +30,13 @@ return require('packer').startup(function(use)
   use 'shaunsingh/nord.nvim'
   use 'ThePrimeagen/vim-be-good'
   use 'folke/tokyonight.nvim'
+  use 'navarasu/onedark.nvim'
+  use { "bluz71/vim-nightfly-colors", as = "nightfly" }
+  use 'sainnhe/edge'
+  use 'marko-cerovac/material.nvim'
+  use 'Mofiqul/dracula.nvim'
+  use ('Tsuzat/NeoSolarized.nvim')
+  use { "catppuccin/nvim", as = "catppuccin" }
   use "akinsho/toggleterm.nvim"
 
   use {
