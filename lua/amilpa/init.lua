@@ -13,7 +13,6 @@ vim.opt.ai = true
 vim.opt.si = true
 --vim.opt.shell = wt
 
-vim.cmd('colorscheme nightfly')
 
 vim.api.nvim_set_hl(0, "Normal" , {bg = "None" })
 vim.api.nvim_set_hl(0, "NormalFloat" , {bg = "None" })
@@ -24,6 +23,7 @@ vim.api.nvim_set_hl(0, "Folded" , {bg = "None" })
 vim.api.nvim_set_hl(0, "SpecialKey" , {bg = "None" })
 vim.api.nvim_set_hl(0, "EndOfBuffer" , {bg = "None" })
 vim.api.nvim_set_hl(0, "SignColumn" , {bg = "None" })
+
 
 vim.cmd('hi LineNr guibg=none guifg=#ffffff')
 vim.cmd('hi comment guifg=#449c70')
