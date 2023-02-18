@@ -34,5 +34,7 @@ vim.keymap.set('n', '<leader>sd', '<cmd>SessionManager delete_session<cr>')
 
 vim.keymap.set('n', '<leader>/', '<cmd>CommentToggle<cr>')
 
+vim.keymap.set('n', '<leader>s', '/')
+
 
 

@@ -1,7 +1,7 @@
 require("amilpa.remap")
 require("amilpa.coderunner")
 
-vim.opt.relativenumber= true
+vim.opt.relativenumber= false
 vim.opt.mouse = 'a'
 vim.opt.hlsearch = false
 vim.opt.tabstop = 4
