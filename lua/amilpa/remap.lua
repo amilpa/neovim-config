@@ -32,9 +32,9 @@ vim.keymap.set('n', '<leader>sl', '<cmd>SessionManager load_session<cr>')
 vim.keymap.set('n', '<leader>ss', '<cmd>SessionManager save_current_session<cr>')
 vim.keymap.set('n', '<leader>sd', '<cmd>SessionManager delete_session<cr>')
 
-vim.keymap.set('n', '<leader>/', '<cmd>CommentToggle<cr>')
+vim.keymap.set('n', '<leader>f', '<cmd>CommentToggle<cr>')
 
-vim.keymap.set('n', '<leader>s', '/')
+vim.keymap.set('n', '<leader>f', '/')
 
 
 
