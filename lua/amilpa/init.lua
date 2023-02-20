@@ -13,6 +13,7 @@ vim.opt.hidden = true
 vim.opt.scrolloff = 10
 vim.opt.ai = true
 vim.opt.si = true
+vim.opt.wrap = false
 --vim.opt.shell = wt
 
 
