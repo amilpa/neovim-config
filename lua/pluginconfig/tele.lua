@@ -65,6 +65,7 @@ require("telescope").setup {
         ["n"] = {
           -- your custom normal mode mappings
 		  ["<leader>c"] = fb_actions.create,
+		  ["<leader>b"] = fb_actions.goto_parent_dir,
         }
       },
 	  path = "%:p:h" ,
