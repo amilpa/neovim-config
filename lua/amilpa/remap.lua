@@ -4,7 +4,7 @@ vim.g.mapleader =" "
 vim.keymap.set('n' , '<leader>w' , '<cmd>write<cr>' , {desc = 'Save'})
 vim.keymap.set('n' , '<S-l>' , '<cmd>bnext<cr>' , {desc = 'Next buffer'})
 vim.keymap.set('n' , '<S-h>' , '<cmd>bprevious<cr>' , {desc = 'Previous buffer'})
-vim.keymap.set('n' , '<leader>pv' , '<cmd>Ex<cr>' , {desc = 'Netrw'})
+vim.keymap.set('n' , '<leader>pv' , '<cmd>Telescope file_browser<cr>' , {desc = 'file_browser'})
 vim.keymap.set('n' , '<leader>q' , ':q' , {desc = 'Quit'})
 vim.keymap.set('n' , '<leader>e' , ':q!' , {desc = 'Quit without saving'})
 vim.keymap.set('i', 'jk', '<Esc>')
