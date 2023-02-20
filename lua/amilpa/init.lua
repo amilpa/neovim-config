@@ -2,13 +2,13 @@ require("amilpa.remap")
 require("amilpa.coderunner")
 
 vim.opt.nu = true
-vim.opt.relativenumber= true
+vim.opt.relativenumber= false
 vim.opt.mouse = 'a'
 vim.opt.hlsearch = false
 vim.opt.incsearch = true
 vim.opt.tabstop = 4
 vim.opt.shiftwidth = 4
-vim.opt.cursorline = false
+vim.opt.cursorline = true
 vim.opt.hidden = true
 vim.opt.scrolloff = 10
 vim.opt.ai = true
