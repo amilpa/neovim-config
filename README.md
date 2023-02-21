@@ -17,6 +17,7 @@ sudo apt install gcc<br>
 sudo apt install g++<br>
 sudo apt install ripgrep<br>
 npm install -g live-server<br>
+for java install jdk 17+(current is 19 but ubuntu repo has 18)(dont install default open jdk)
 
 
 troubleshoot - npm install -g tree-sitter-cli(for problems regarding treesitter)
