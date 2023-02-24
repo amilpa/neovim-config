@@ -15,7 +15,7 @@ require('telescope').setup{
 	path_display = { "truncate" },
 	layout_config = {
       horizontal = {
-        prompt_position = "top",
+        prompt_position = "bottom",
         preview_width = 0.55,
         results_width = 0.8,
       },
@@ -39,9 +39,9 @@ require('telescope').setup{
 	prompt_prefix = "   ",
     entry_prefix = "  ",
     initial_mode = "insert",
-    sorting_strategy = "ascending",
-	color_devicons = true,
-	set_env = { ["COLORTERM"] = "truecolor" },
+    sorting_strategy = "descending",
+	-- color_devicons = true,
+	-- set_env = { ["COLORTERM"] = "truecolor" },
 },
 }
 
