@@ -1,6 +1,6 @@
 require'nvim-treesitter.configs'.setup {
   -- A list of parser names, or "all" (the four listed parsers should always be installed)
-  ensure_installed = { "html","css","c","python","cpp", "lua", "vim", "help" ,"javascript" , "typescript"},
+  ensure_installed = { "html","css","c","python","cpp", "lua", "vim", "help" ,"javascript" , "typescript" , "tsx"},
 
   -- Install parsers synchronously (only applied to `ensure_installed`)
   sync_install = false,

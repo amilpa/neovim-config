@@ -14,6 +14,11 @@
     "prefix": "classlist",
     "body": "${object}.classList.toggle('$0')",
     "description": "javascript classlist toggle"
+  },
+  "null div": {
+    "prefix": "divn",
+    "body": "<div>$0</div>",
+    "description": "null div without any space"
   }
 
 }
