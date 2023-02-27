@@ -80,6 +80,7 @@ Group.new('Normal', colors.base1, colors.NONE, styles.NONE)
 Group.new('CursorLine', colors.none, colors.base03, styles.NONE, colors.base1)
 Group.new('CursorLineNr', colors.yellow, colors.black, styles.NONE, colors.base1)
 Group.new('CursorLineNr', colors.yellow, colors.black, styles.NONE, colors.base1)
+Group.new('Search', colors.NONE, colors.NONE, styles.NONE, colors.base1)
 -- Group.new('Visual', colors.none, colors.base03, styles.reverse)
 
 local cError = groups.Error.fg
@@ -105,4 +106,4 @@ Group.new("HoverBorder", colors.yellow, colors.none, styles.NONE)
 -- 	}
 -- }
 --
-vim.opt.hlsearch = false
+
