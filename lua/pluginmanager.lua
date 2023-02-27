@@ -27,7 +27,7 @@ return require('packer').startup(function(use)
 	  }
   }
 
-  use 'shaunsingh/nord.nvim'
+  use 'gbprod/nord.nvim'
   use 'ThePrimeagen/vim-be-good'
   use 'folke/tokyonight.nvim'
   use 'navarasu/onedark.nvim'
