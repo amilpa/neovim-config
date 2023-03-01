@@ -29,5 +29,4 @@ vim.opt.wrap = false
 
 
 
-require("nvim-surround").setup()
-require('nvim_comment').setup()
+

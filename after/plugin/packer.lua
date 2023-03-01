@@ -1,3 +1,4 @@
+
 vim.cmd [[packadd packer.nvim]]
 
 return require('packer').startup(function(use)
@@ -35,9 +36,6 @@ return require('packer').startup(function(use)
 	use 'sainnhe/edge'
 	use 'marko-cerovac/material.nvim'
 	use 'Mofiqul/dracula.nvim'
-	use {'svrana/neosolarized.nvim' ,
-	requires = { 'tjdevries/colorbuddy.nvim'}
-	}
 
 	use { "catppuccin/nvim", as = "catppuccin" }
 	use { "ellisonleao/gruvbox.nvim" }
