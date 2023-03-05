@@ -134,6 +134,11 @@ _G.packer_plugins = {
     path = "/home/amilpa/.local/share/nvim/site/pack/packer/start/harpoon",
     url = "https://github.com/ThePrimeagen/harpoon"
   },
+  ["impatient.nvim"] = {
+    loaded = true,
+    path = "/home/amilpa/.local/share/nvim/site/pack/packer/start/impatient.nvim",
+    url = "https://github.com/lewis6991/impatient.nvim"
+  },
   ["lsp-zero.nvim"] = {
     loaded = true,
     path = "/home/amilpa/.local/share/nvim/site/pack/packer/start/lsp-zero.nvim",

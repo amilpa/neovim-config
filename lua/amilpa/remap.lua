@@ -42,5 +42,8 @@ vim.keymap.set('n', '<leader>sd', '<cmd>SessionManager delete_session<cr>')
 
 vim.keymap.set('n', '<leader>i', 'ggVG=<C-o>')
 
+vim.keymap.set('n', '<leader>nh', '<cmd>noh<cr>')
+
+
 
 
