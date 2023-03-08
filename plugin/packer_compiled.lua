@@ -255,6 +255,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/amilpa/.local/share/nvim/site/pack/packer/start/vim-be-good",
     url = "https://github.com/ThePrimeagen/vim-be-good"
+  },
+  ["vim-easymotion"] = {
+    loaded = true,
+    path = "/home/amilpa/.local/share/nvim/site/pack/packer/start/vim-easymotion",
+    url = "https://github.com/easymotion/vim-easymotion"
   }
 }
 
