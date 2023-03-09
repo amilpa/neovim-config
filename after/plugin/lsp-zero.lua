@@ -14,7 +14,8 @@ lsp.ensure_installed({
 	'cssls',
 	'eslint',
 	'jsonls',
-	'lua_ls'
+	'lua_ls',
+	'emmet_ls'
 })
 
 local cmp = require('cmp')

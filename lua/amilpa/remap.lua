@@ -44,6 +44,10 @@ vim.keymap.set('n', '<leader>i', 'ggVG=<C-o>')
 
 vim.keymap.set('n', '<leader>nh', '<cmd>noh<cr>')
 
+vim.keymap.set('n', '<leader>j', '<C-d>')
+vim.keymap.set('n', '<leader>k', '<C-u>')
+
+vim.cmd('nmap <Leader>f <Plug>(easymotion-overwin-f)')
 
 
 
