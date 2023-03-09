@@ -4,7 +4,7 @@ local actions = require("telescope.actions")
 local fb_actions = require "telescope".extensions.file_browser.actions
 
 require('telescope').setup{
-	-- defaults = { file_ignore_patterns = {"packer_compiled.lua",".git",".gitignore",".exe" ,".vscode" ,"node_modules",".jpg",".png",".out",".class"},
+	defaults = { file_ignore_patterns = {"packer_compiled.lua",".git",".exe" ,".vscode" ,"node_modules"}},
 
 	mappings = {
 		n = {
