@@ -29,8 +29,13 @@ lsp.setup_nvim_cmp({
 			else
 				fallback()
 			end
-		end, {'i', 's'}),	
+		end, {'i', 's'}),
 	}),
 })
 
+require'lspconfig'.eslint.setup{
+	root_dir = require("lspconfig").util.root_pattern("package.json")
+}
+
 lsp.setup()
+
