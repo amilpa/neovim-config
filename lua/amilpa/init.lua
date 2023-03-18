@@ -1,10 +1,10 @@
 require("amilpa.remap")
 require("amilpa.coderunner")
+require("amilpa.plugins")
 
 vim.opt.nu = true
 vim.opt.relativenumber= false
 vim.opt.mouse = 'a'
-vim.opt.hlsearch = false
 vim.opt.incsearch = true
 vim.opt.tabstop = 4
 vim.opt.shiftwidth = 4
@@ -14,6 +14,7 @@ vim.opt.scrolloff = 10
 vim.opt.ai = true
 vim.opt.si = true
 vim.opt.wrap = false
+vim.opt.hlsearch = false
 --vim.opt.shell = wt
 
 
