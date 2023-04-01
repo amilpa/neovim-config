@@ -3,9 +3,10 @@ local function show_macro_recording()
     if recording_register == "" then
         return ""
     else
-        return "Recording @" .. recording_register
+        return "recording @" .. recording_register
     end
 end
+
 require('lualine').setup({
     sections = {
         lualine_b = {
