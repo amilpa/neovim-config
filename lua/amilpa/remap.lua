@@ -52,4 +52,5 @@ vim.keymap.set('n', '<leader>j', '<C-d>')
 vim.keymap.set('n', '<leader>k', '<C-u>')
 
 vim.keymap.set('n','<leader>r' , vim.cmd.Git)
+vim.keymap.set('n','<leader>rp' , '<cmd>Git push<cr>')
 
