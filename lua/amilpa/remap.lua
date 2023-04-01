@@ -7,9 +7,13 @@ vim.keymap.set('n' , '<leader>w' , '<cmd>write<cr>' , {desc = 'Save'})
 vim.keymap.set('n' , '<S-l>' , '<cmd>lua require("harpoon.ui").nav_next()<cr>' , {desc = 'Next mark'})
 vim.keymap.set('n' , '<S-h>' , '<cmd>lua require("harpoon.ui").nav_prev()<cr>' , {desc = 'Previous mark'})
 
+-- vim.keymap.set('n' , '<S-l>' , '<cmd>bnext<cr>' , {desc = 'Next buffer'})
+-- vim.keymap.set('n' , '<S-h>' , '<cmd>bprevious<cr>' , {desc = 'Previous buffer'})
+-- vim.keymap.set('n' , '<leader>c' , '<cmd>bdelete<cr>' , {desc = 'Delete buffer'})
 
-vim.keymap.set('n' , '<leader>mm' , '<cmd>lua require("harpoon.ui").toggle_quick_menu()<cr>' , {desc = 'view ui'})
-vim.keymap.set('n' , '<leader>ma' , '<cmd>lua require("harpoon.mark").add_file()<cr>' , {desc = 'add file'})
+-- harpoon menu
+vim.keymap.set('n' , '<leader>m' , '<cmd>lua require("harpoon.ui").toggle_quick_menu()<cr>' , {desc = 'view ui'})
+vim.keymap.set('n' , '<leader>a' , '<cmd>lua require("harpoon.mark").add_file()<cr>' , {desc = 'add file'})
 
 vim.keymap.set('n' , '<leader>pv' , '<cmd>Telescope file_browser<cr>' , {desc = 'file_browser'})
 vim.keymap.set('n' , '<leader>q' , ':q' , {desc = 'Quit'})
@@ -47,7 +51,5 @@ vim.keymap.set('n', '<leader>nh', '<cmd>noh<cr>')
 vim.keymap.set('n', '<leader>j', '<C-d>')
 vim.keymap.set('n', '<leader>k', '<C-u>')
 
-vim.cmd('nmap <Leader>f <Plug>(easymotion-overwin-f)')
-
-
+vim.keymap.set('n','<leader>r' , vim.cmd.Git)
 

@@ -54,6 +54,9 @@ return require('packer').startup(function(use)
 	}
 	use 'ThePrimeagen/harpoon'
 
+	use 'tpope/vim-fugitive'
+	use 'mbbill/undotree'
+
 	use {
 		"nvim-telescope/telescope-file-browser.nvim",
 		requires = { "nvim-telescope/telescope.nvim", "nvim-lua/plenary.nvim" }
@@ -73,7 +76,14 @@ return require('packer').startup(function(use)
 
 	use 'lewis6991/impatient.nvim'
 
-	use 'easymotion/vim-easymotion'
+	-- use 'easymotion/vim-easymotion'
+	use({
+		"andrewferrier/wrapping.nvim",
+		config = function()
+			require("wrapping").setup()
+		end,
+	})
 
+	use 'justinmk/vim-sneak'
 
 end)
