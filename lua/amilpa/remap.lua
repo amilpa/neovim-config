@@ -54,3 +54,6 @@ vim.keymap.set('n', '<leader>k', '<C-u>')
 vim.keymap.set('n','<leader>r' , vim.cmd.Git)
 vim.keymap.set('n','<leader>rp' , '<cmd>Git push<cr>')
 
+vim.keymap.set('n','<leader>ut' , '<cmd>UndotreeToggle<cr>')
+vim.keymap.set('n','<leader>uf' , '<cmd>UndotreeFocus<cr>')
+
