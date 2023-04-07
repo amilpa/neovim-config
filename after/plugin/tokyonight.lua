@@ -8,7 +8,7 @@ require("tokyonight").setup({
   end,
 })
 
--- vim.cmd('hi LineNr guibg=none guifg=#ffffff')
--- vim.cmd('hi comment guifg=#449c70')
+vim.cmd('hi LineNr guibg=none guifg=#ffffff')
+vim.cmd('hi comment guifg=#449c70')
 
 vim.cmd('colorscheme tokyonight')
