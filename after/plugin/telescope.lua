@@ -1,7 +1,6 @@
 
 
 local actions = require("telescope.actions")
-local fb_actions = require "telescope".extensions.file_browser.actions
 
 require('telescope').setup{
 	defaults = { file_ignore_patterns = {"packer_compiled.lua",".git",".exe" ,".vscode" ,"node_modules"}},
@@ -35,26 +34,3 @@ require('telescope').setup{
 	-- set_env = { ["COLORTERM"] = "truecolor" },
 --},
 }
-
-require("telescope").setup {
-  extensions = {
-    file_browser = {
-
-	  theme = "ivy",
-
-      hijack_netrw = true,
-      mappings = {
-        ["i"] = {
-          -- your custom insert mode mappings
-        },
-        ["n"] = {
-          -- your custom normal mode mappings
-		  ["<leader>c"] = fb_actions.create,
-		  ["<leader>b"] = fb_actions.goto_parent_dir,
-        }
-      },
-	  path = "%:p:h" ,
-    },
-  },
-}
-require("telescope").load_extension "file_browser"

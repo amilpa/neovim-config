@@ -55,12 +55,8 @@ return require('packer').startup(function(use)
 	use 'ThePrimeagen/harpoon'
 
 	use 'tpope/vim-fugitive'
+	use 'lewis6991/gitsigns.nvim'
 	use 'mbbill/undotree'
-
-	use {
-		"nvim-telescope/telescope-file-browser.nvim",
-		requires = { "nvim-telescope/telescope.nvim", "nvim-lua/plenary.nvim" }
-	}
 
 	use {
 		"windwp/nvim-autopairs",

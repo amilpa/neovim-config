@@ -15,7 +15,7 @@ vim.keymap.set('n' , '<S-h>' , '<cmd>lua require("harpoon.ui").nav_prev()<cr>' ,
 vim.keymap.set('n' , '<leader>m' , '<cmd>lua require("harpoon.ui").toggle_quick_menu()<cr>' , {desc = 'view ui'})
 vim.keymap.set('n' , '<leader>a' , '<cmd>lua require("harpoon.mark").add_file()<cr>' , {desc = 'add file'})
 
-vim.keymap.set('n' , '<leader>pv' , '<cmd>Telescope file_browser<cr>' , {desc = 'file_browser'})
+vim.keymap.set('n' , '<leader>pv' , '<cmd>Ex<cr>' , {desc = 'file_browser'})
 vim.keymap.set('n' , '<leader>q' , ':q' , {desc = 'Quit'})
 vim.keymap.set('n' , '<leader>e' , ':q!' , {desc = 'Quit without saving'})
 vim.keymap.set('i', 'jk', '<Esc>')
@@ -30,7 +30,7 @@ vim.keymap.set('n', '<leader>h', '^')
 vim.keymap.set('n', '<C-d>', '<C-d>zz')
 vim.keymap.set('n', '<C-u>', '<C-u>zz')
 
-vim.keymap.set('x' , '<leader>p' , "\"_dP")
+vim.keymap.set('n' , '<leader>p' , "\"+p")
 
 vim.keymap.set('n' , '<leader>y' , "\"+y")
 vim.keymap.set('v' , '<leader>y' , "\"+y")
