@@ -4,4 +4,10 @@
 --
 
 vim.api.nvim_set_keymap("n", "<leader>pv", "<cmd>Explore<CR>", { noremap = true, silent = true, desc = "netrw" })
+vim.api.nvim_set_keymap(
+  "n",
+  "<leader>ba",
+  ":%bd|e#<CR>",
+  { noremap = true, silent = true, desc = "delete all buffers except current one" }
+)
 vim.api.nvim_set_keymap("i", "jk", "<Esc>", { noremap = true, silent = true })
