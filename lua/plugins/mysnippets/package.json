@@ -1,0 +1,21 @@
+{
+  "name": "my friendly snippets",
+  "version": "1.0.0",
+  "description": "custom snippets made by amilpa",
+  "contributes": {
+    "snippets": [
+      {
+        "language": "javascriptreact",
+        "path": "./typescript/html.json"
+      },
+      {
+        "language": "typescript",
+        "path": "./typescript/typescript.json"
+      },
+      {
+        "language": "typescriptreact",
+        "path": "./typescript/html.json"
+      }
+    ]
+  }
+}
