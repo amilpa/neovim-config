@@ -8,7 +8,6 @@ return {
   event = "VimEnter",
   config = function()
     require("session_manager").setup({
-      autosave_last_session = false,
       autoload_mode = false,
     })
   end,
