@@ -4,4 +4,3 @@
 --
 --
 vim.opt.hlsearch = false
-vim.opt.guicursor = block
