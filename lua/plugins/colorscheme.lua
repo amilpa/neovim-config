@@ -1,5 +1,25 @@
+-- return {
+--   "folke/tokyonight.nvim",
+--   lazy = true,
+--   opts = { style = "night" },
+-- }
+-- return {
+--   "ellisonleao/gruvbox.nvim",
+--   lazy = true,
+-- }
 return {
-  "folke/tokyonight.nvim",
-  lazy = true,
-  opts = { style = "night" },
+  {
+    "rose-pine/neovim",
+    config = function()
+      require("rose-pine").setup({
+        disable_italics = true,
+      })
+    end,
+  },
+  {
+    "LazyVim/LazyVim",
+    opts = {
+      colorscheme = "rose-pine",
+    },
+  },
 }
