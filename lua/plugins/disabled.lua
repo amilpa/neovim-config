@@ -6,5 +6,5 @@ return {
   { "folke/noice.nvim", enabled = false },
   { "folke/persistence.nvim", enabled = false },
   { "echasnovski/mini.animate", enabled = false },
-  { "lewis6991/gitsigns.nvim", enabled = false },
+  -- { "lewis6991/gitsigns.nvim", enabled = false },
 }
