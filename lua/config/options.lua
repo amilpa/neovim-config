@@ -4,3 +4,5 @@
 --
 --
 vim.opt.hlsearch = false
+-- vim.highlight.create("NormalFloat", { guibg = "None", guifg = "None" }, false)
+-- vim.highlight.create("FloatBorder", { guibg = "None" }, false)
