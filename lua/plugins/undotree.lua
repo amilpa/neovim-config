@@ -2,6 +2,6 @@ return {
   "mbbill/undotree",
   event = "BufRead",
   keys = {
-    { "<leader>ut", ":UndotreeToggle<CR>", desc = "Toggle undotree" },
+    { "<leader>ut", "<cmd>UndotreeToggle<CR>", desc = "Toggle undotree" },
   },
 }
