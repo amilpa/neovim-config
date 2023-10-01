@@ -7,3 +7,4 @@ vim.opt.hlsearch = false
 -- vim.highlight.create("NormalFloat", { guibg = "None", guifg = "None" }, false)
 -- vim.highlight.create("FloatBorder", { guibg = "None" }, false)
 vim.opt.conceallevel = 2
+vim.opt.concealcursor = "nc"
