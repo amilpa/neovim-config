@@ -13,4 +13,3 @@ vim.api.nvim_set_keymap(
 vim.api.nvim_set_keymap("i", "jk", "<Esc>", { noremap = true, silent = true })
 vim.api.nvim_set_keymap("n", "<leader>tsv", "<cmd>silent !tmux split-window -dh<CR>", { noremap = true })
 vim.api.nvim_set_keymap("n", "<leader>tsh", "<cmd>silent !tmux split-window -dv<CR>", { noremap = true })
-vim.api.nvim_del_keymap("n", "<C-k>")
