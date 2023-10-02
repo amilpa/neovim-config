@@ -43,7 +43,6 @@
   "nvim-ts-context-commentstring": { "branch": "main", "commit": "0c136439fb93fd94db9106250ff6f6858101422b" },
   "nvim-web-devicons": { "branch": "master", "commit": "45d0237c427baba8cd05e0ab26d30e2ee58c2c82" },
   "plenary.nvim": { "branch": "master", "commit": "9ce85b0f7dcfe5358c0be937ad23e456907d410b" },
-  "tailwind-fold.nvim": { "branch": "main", "commit": "ee76814c51d940074077b63fa03827d95bab8e56" },
   "tailwind-sorter.nvim": { "branch": "main", "commit": "efc34952eb0a20520f12c8a273ea44298c11a4fa" },
   "telescope.nvim": { "branch": "master", "commit": "ffe90fac32122f401429b14d383137bd92a685d0" },
   "todo-comments.nvim": { "branch": "main", "commit": "3094ead8edfa9040de2421deddec55d3762f64d1" },
