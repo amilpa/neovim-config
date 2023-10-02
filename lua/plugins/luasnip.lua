@@ -8,6 +8,7 @@ return {
     config = function()
       require("luasnip").filetype_extend("javascriptreact", { "html" })
       require("luasnip").filetype_extend("javascript", { "html" })
+      require("luasnip").filetype_extend("javascript", { "javascriptreact" })
       require("luasnip").filetype_extend("typescriptreact", { "html" })
       require("luasnip.loaders.from_vscode").lazy_load()
       require("luasnip.loaders.from_vscode").lazy_load({
