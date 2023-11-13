@@ -9,7 +9,6 @@ vim.opt.hlsearch = false
 vim.opt.conceallevel = 2
 vim.opt_local.formatoptions:remove({ "r", "o" })
 vim.cmd([[autocmd FileType * set formatoptions-=ro]])
-vim.opt.clipboard = "unnamed"
 vim.opt.wrap = true
 -- vim.opt.foldexpr = "v:lua.vim.treesitter.foldexpr()"
 -- vim.opt.foldmethod = "expr"
