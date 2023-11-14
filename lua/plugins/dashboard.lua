@@ -31,9 +31,9 @@ return {
         header = vim.split(logo, "\n"),
         -- stylua: ignore
         center = {
-          { action = 'SessionManager load_session',                        desc = " Restore Session", icon = " ", key = "s" },
-          { action = "Lazy",                                                     desc = " Lazy",            icon = "󰒲 ", key = "l" },
-          { action = "qa",                                                       desc = " Quit",            icon = " ", key = "q" },
+          { action = 'SessionManager load_session', desc = " Restore Session", icon = " ", key = "s" },
+          { action = "Lazy",desc = " Lazy", icon = "󰒲 ", key = "l" },
+          { action = "qa", desc = " Quit", icon = " ", key = "q" },
         },
         footer = function()
           local stats = require("lazy").stats()
