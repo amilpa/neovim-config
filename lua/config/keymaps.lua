@@ -18,4 +18,4 @@ vim.api.nvim_set_keymap("n", "<leader>tsh", "<cmd>silent !tmux split-window -dv<
 vim.keymap.set("n", "+", "<C-a>")
 vim.keymap.set("n", "-", "<C-x>")
 
-vim.keymap.set("n", "<C-a>", "gg<S-v>G")
+vim.keymap.set("n", "<leader>a", "gg<S-v>G")
