@@ -22,7 +22,7 @@ return {
     keys = {
       { "<leader>ce", "<cmd>CopilotChatExplain<CR>", desc = "Explain given code" },
       { "<leader>cf", "<cmd>CopilotChatFixDiagnostic<CR>", desc = "Fix given code" },
-      { "<leader>co", "<cmd>CopilotChatOpen<CR>", desc = "Open Chat window" },
+      { "<leader>cx", "<cmd>CopilotChatOpen<CR>", desc = "Open Chat window" },
     },
   },
 }
