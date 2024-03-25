@@ -17,6 +17,11 @@ return {
         border = "none",
         title = "Copilot chat",
       },
+      mappings = {
+        reset = {
+          insert = "<C-k>",
+        },
+      },
     },
     -- See Commands section for default commands if you want to lazy load on them
     keys = {
