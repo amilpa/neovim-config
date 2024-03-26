@@ -3,7 +3,7 @@
 -- Add any additional keymaps here
 --
 
-vim.api.nvim_set_keymap("n", "<leader>pv", "<cmd>Explore<CR>", { noremap = true, silent = true, desc = "netrw" })
+vim.api.nvim_set_keymap("n", "<leader>pv", "<cmd>Oil<CR>", { noremap = true, silent = true, desc = "netrw" })
 vim.api.nvim_set_keymap(
   "n",
   "<leader>ba",
