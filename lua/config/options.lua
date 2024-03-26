@@ -12,3 +12,4 @@ vim.cmd([[autocmd FileType * set formatoptions-=ro]])
 vim.opt.wrap = true
 -- vim.opt.foldexpr = "v:lua.vim.treesitter.foldexpr()"
 -- vim.opt.foldmethod = "expr"
+vim.g.lazygit_theme = false
