@@ -607,6 +607,7 @@ require('lazy').setup({
       --     'typescript-language-server',
       --     'css-lsp',
       --     'lua-language-server',
+      --     'tailwindcss-language-server'
       --   },
       -- },
 
