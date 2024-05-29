@@ -601,6 +601,14 @@ require('lazy').setup({
       --
       --  You can press `g?` for help in this menu.
       require('mason').setup()
+      -- opts = {
+      --   ensure_installed = {
+      --     'prettier',
+      --     'typescript-language-server',
+      --     'css-lsp',
+      --     'lua-language-server',
+      --   },
+      -- },
 
       -- You can add other tools here that you want Mason to install
       -- for you, so that they are available from within Neovim.
@@ -921,7 +929,6 @@ require('lazy').setup({
   --    For additional information, see `:help lazy.nvim-lazy.nvim-structuring-your-plugins`
   { import = 'custom.plugins' },
   { import = 'custom.keymaps' },
-  { import = 'custom.autocmds' },
 }, {
   ui = {
     -- If you are using a Nerd Font: set icons to an empty table which will use the
@@ -946,3 +953,7 @@ require('lazy').setup({
 
 -- The line beneath this is called `modeline`. See `:help modeline`
 -- vim: ts=2 sts=2 sw=2 et
+-- My small additions
+vim.api.nvim_set_hl(0, 'LspReferenceText', { bg = '#333333' })
+vim.api.nvim_set_hl(0, 'LspReferenceRead', { bg = '#333333' })
+vim.api.nvim_set_hl(0, 'LspReferenceWrite', { bg = '#333333' })
