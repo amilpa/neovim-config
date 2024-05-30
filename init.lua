@@ -115,6 +115,7 @@ vim.opt.showmode = false
 --  See `:help 'clipboard'`
 -- vim.opt.clipboard = 'unnamedplus'
 vim.opt.guifont = 'CaskaydiaMono Nerd Font:h13'
+vim.g.neovide_cursor_animate_in_insert_mode = false
 
 -- Enable break indent
 vim.opt.breakindent = true
