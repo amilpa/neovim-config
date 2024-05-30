@@ -1,6 +1,6 @@
 return {
   'github/copilot.vim',
-  event = 'VimEnter',
+  event = 'BufEnter',
   init = function()
     vim.g.copilot_assume_mapped = true
   end,
