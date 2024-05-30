@@ -3,4 +3,6 @@ vim.keymap.set('n', '<C-s>', '<cmd>w<CR>', { desc = 'Save file' })
 vim.keymap.set('n', '<S-l>', '<cmd>b#<CR>', { desc = 'Switch to recent buffer' })
 vim.keymap.set('n', '<leader>qq', '<cmd>q<CR>', { desc = 'Quit' })
 vim.keymap.set('n', '<leader>a', 'gg<S-v>G')
+vim.keymap.set('n', '<C-v>', '"+p')
+vim.keymap.set('n', '<C-c>', '"+y')
 return {}

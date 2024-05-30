@@ -114,6 +114,7 @@ vim.opt.showmode = false
 --  Remove this option if you want your OS clipboard to remain independent.
 --  See `:help 'clipboard'`
 -- vim.opt.clipboard = 'unnamedplus'
+vim.opt.guifont = 'CaskaydiaMono Nerd Font:h13'
 
 -- Enable break indent
 vim.opt.breakindent = true
@@ -819,8 +820,8 @@ require('lazy').setup({
     end,
     config = function()
       require('poimandres').setup {
-        disable_background = true,
-        disable_float_background = true,
+        disable_background = false,
+        disable_float_background = false,
       }
     end,
   },
@@ -934,7 +935,7 @@ require('lazy').setup({
   --    For additional information, see `:help lazy.nvim-lazy.nvim-structuring-your-plugins`
   { import = 'custom.plugins' },
   { import = 'custom.keymaps' },
-  { import = 'custom.autocmds' },
+  -- { import = 'custom.autocmds' },
 }, {
   ui = {
     -- If you are using a Nerd Font: set icons to an empty table which will use the
