@@ -115,7 +115,7 @@ vim.opt.showmode = false
 --  See `:help 'clipboard'`
 -- vim.opt.clipboard = 'unnamedplus'
 vim.opt.guifont = 'CaskaydiaMono Nerd Font:h13'
-vim.g.neovide_cursor_animate_in_insert_mode = false
+vim.g.neovide_cursor_animate_in_insert_mode = true
 
 -- Enable break indent
 vim.opt.breakindent = true
@@ -260,6 +260,16 @@ require('lazy').setup({
     },
   },
 
+  {
+    'airblade/vim-gitgutter',
+    config = function()
+      vim.keymap.set('n', ']c', '<cmd>GitGutterNextHunk<CR>', { desc = 'Toggle GitGutter highlights' })
+      vim.keymap.set('n', '[c', '<cmd>GitGutterPrevHunk<CR>', { desc = 'Toggle GitGutter highlights' })
+      vim.api.nvim_set_hl(0, 'GitGutterAdd', { fg = '#5de4c7' })
+      vim.api.nvim_set_hl(0, 'GitGutterChange', { fg = '#eee9b6' })
+    end,
+  },
+
   -- NOTE: Plugins can also be configured to run Lua code when they are loaded.
   --
   -- This is often very useful to both group configuration, as well as handle
@@ -357,7 +367,14 @@ require('lazy').setup({
         --
         defaults = {
           mappings = {
-            i = { ['<C-f>'] = 'select_vertical', ['<C-h>'] = 'select_horizontal' },
+            i = {
+              ['<C-f>'] = 'select_vertical',
+              ['<C-h>'] = 'select_horizontal',
+              ['<C-p>'] = require('telescope.actions.layout').toggle_preview,
+            },
+          },
+          preview = {
+            hide_on_startup = true,
           },
         },
         -- pickers = {}
@@ -820,8 +837,8 @@ require('lazy').setup({
     end,
     config = function()
       require('poimandres').setup {
-        disable_background = true,
-        disable_float_background = true,
+        disable_background = false,
+        disable_float_background = false,
       }
     end,
   },
