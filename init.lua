@@ -715,7 +715,7 @@ require('lazy').setup({
             'rafamadriz/friendly-snippets',
             config = function()
               require('luasnip.loaders.from_vscode').lazy_load()
-              require('luasnip').filetype_extend('javascriptreact', { 'html' })
+              -- require('luasnip').filetype_extend('javascriptreact', { 'html' })
             end,
           },
         },
@@ -820,8 +820,8 @@ require('lazy').setup({
     end,
     config = function()
       require('poimandres').setup {
-        disable_background = false,
-        disable_float_background = false,
+        disable_background = true,
+        disable_float_background = true,
       }
     end,
   },
