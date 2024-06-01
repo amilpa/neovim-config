@@ -263,8 +263,9 @@ require('lazy').setup({
   {
     'airblade/vim-gitgutter',
     config = function()
-      vim.keymap.set('n', ']c', '<cmd>GitGutterNextHunk<CR>', { desc = 'Toggle GitGutter highlights' })
-      vim.keymap.set('n', '[c', '<cmd>GitGutterPrevHunk<CR>', { desc = 'Toggle GitGutter highlights' })
+      vim.keymap.set('n', ']c', '<cmd>GitGutterNextHunk<CR>', { desc = 'Next Hunk' })
+      vim.keymap.set('n', '[c', '<cmd>GitGutterPrevHunk<CR>', { desc = 'Prev Hunk' })
+      vim.keymap.set('n', '<leader>ghd', '<cmd>GitGutterUndoHunk<CR>', { desc = 'Undo Hunk' })
       vim.api.nvim_set_hl(0, 'GitGutterAdd', { fg = '#5de4c7' })
       vim.api.nvim_set_hl(0, 'GitGutterChange', { fg = '#eee9b6' })
     end,
