@@ -374,6 +374,7 @@ require('lazy').setup({
               ['<C-p>'] = require('telescope.actions.layout').toggle_preview,
             },
           },
+          file_ignore_patterns = { 'node_modules', '.git' },
           preview = {
             hide_on_startup = true,
           },
@@ -838,7 +839,7 @@ require('lazy').setup({
     end,
     config = function()
       require('poimandres').setup {
-        disable_background = false,
+        disable_background = true,
         disable_float_background = false,
       }
     end,
